@@ -1,7 +1,8 @@
 {
   "test translate": "test translate",
   "translate": "translate",
-  "Язык": "Language",
+  "Язык": "English",
+  "Короткий язык": "En",
   "Not found": "Not found",
   "Unpredictable error": "Unpredictable error",
   "Reload Page": "Reload Page",

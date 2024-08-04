@@ -7,6 +7,9 @@
   "Unpredictable error": "Unpredictable error",
   "Reload Page": "Reload Page",
   "Throw Error": "Throw Error",
-  "Войти": "Войти",
-  "Введите пароль": "Введите пароль"
+  "Войти": "Enter",
+  "Введите пароль": "Enter the password",
+  "Форма авторизации": "Auth Form",
+  "Вы ввели неверный логин или пароль": "Wrong password or username",
+  "Выйти": "Logout"
 }

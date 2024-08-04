@@ -4,10 +4,13 @@
   "Reload Page": "Reload Page",
   "Throw Error": "Throw Error",
   "Unpredictable error": "Unpredictable error",
-  "Введите username": "Введите username",
-  "Введите пароль": "Введите пароль",
-  "Войти": "Войти",
+  "Введите username": "Enter username",
+  "Введите пароль": "Enter the password",
+  "Войти": "Enter",
+  "Вы ввели неверный логин или пароль": "Вы ввели неверный логин или пароль",
+  "Выйти": "Выйти",
   "Главная страница": "Главная страница",
   "О сайте": "О сайте",
+  "Форма авторизации": "Authorisation form",
   "Язык": "Язык"
 }

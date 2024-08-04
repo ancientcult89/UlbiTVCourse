@@ -8,6 +8,7 @@ import {memo, useCallback} from "react";
 import {loginActions} from "../../model/slice/loginSlice";
 import {getLoginState} from "../../model/selectors/getLoginState/getLoginState";
 import {loginByUserName} from "../../model/services/loginByUserName/loginByUserName";
+import Text, {TextTheme} from "shared/ui/Text/Text";
 
 interface LoginFormProps {
     className?: string;
@@ -32,9 +33,8 @@ export const LoginForm = memo(({className} : LoginFormProps) => {
 
     return (
         <div className={classNames(cls.LoginForm, {}, [])}>
-            {error && <div>
-                {error}
-            </div>}
+            <Text title={t('Форма авторизации')} theme={TextTheme.PRIMARY}/>
+            {error && <Text text={t('Вы ввели неверный логин или пароль')} theme={TextTheme.ERROR}/>}
             <Input
                 type='text'
                 autofocus
